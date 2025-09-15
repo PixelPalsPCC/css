@@ -1,0 +1,31 @@
+<html>
+<!-- 
+There are four different combinators in CSS:
+
+Descendant Selector (space)
+Child Selector (>)
+Adjacent Sibling Selector (+)
+General Sibling Selector (~)
+-->
+
+<!-- The Descendant Selector matches all elements that are descendants of a specified element: Change the color of all <p> elements, that are descendants of <div> elements, to "red". -->
+
+<head>
+    <style>
+        div p {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>This is a paragraph.</p>
+        <p>This is a paragraph.</p>
+    </div>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+</body>
+
+<!-- https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators -->
+</html>

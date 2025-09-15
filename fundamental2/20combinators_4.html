@@ -1,0 +1,37 @@
+<html>
+<!-- 
+There are four different combinators in CSS:
+
+Descendant Selector (space)
+Child Selector (>)
+Adjacent Sibling Selector (+)
+General Sibling Selector (~)
+-->
+
+<!-- 
+   The General Sibling Selector selects all elements that are next siblings of a specified element: Change the color of the <p> elements that are siblings of a <div> element, to "red".
+ -->
+
+<head>
+    <style>
+        div ~ p {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <div>
+            <p>This is a paragraph.</p>
+            <p>This is a paragraph.</p>
+        </div>
+        <p>This is a paragraph.</p>
+        <p>This is a paragraph.</p>
+    </body>
+</body>
+
+<!-- https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators -->
+
+</html>

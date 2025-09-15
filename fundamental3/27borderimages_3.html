@@ -1,0 +1,22 @@
+<html>
+<!-- The image border needs a border-image-stretch value, insert one of the legal values. -->
+
+<head>
+    <style>
+        div {
+            border: 10px solid transparent;
+            padding: 15px;
+            -webkit-border-image: url(border.png) 30 stretch;/* Safari 3.1-5*/
+            -o-border-image: url(border.png) 30 stretch;/* Opera 11-12.1 */
+            border-image: url(border.png) 30 stretch;
+            text-align: center;
+            background: rgb(225, 0, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div>This is a div element. It has some text.</div>
+</body>
+
+</html>

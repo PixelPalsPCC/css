@@ -1,0 +1,40 @@
+<html>
+<!-- 
+There are four different combinators in CSS:
+
+Descendant Selector (space)
+Child Selector (>)
+Adjacent Sibling Selector (+)
+General Sibling Selector (~)
+-->
+
+<!-- 
+The Adjacent Sibling Selector is used to select an element that is directly after another specific element.
+
+Sibling elements must have the same parent element, and "adjacent" means "immediately following".
+
+Change the color of the first <p> element that is directly after a <div> element, to "red". -->
+
+<head>
+    <style>
+        div+p {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <div>
+            <p>This is a paragraph.</p>
+            <p>This is a paragraph.</p>
+        </div>
+        <p>This is a paragraph.</p>
+        <p>This is a paragraph.</p>
+    </body>
+</body>
+
+<!-- https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators -->
+
+</html>
